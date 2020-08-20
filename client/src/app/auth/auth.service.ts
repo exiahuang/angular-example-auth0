@@ -5,8 +5,8 @@ import { from, of, Observable, BehaviorSubject, combineLatest, throwError } from
 import { tap, catchError, concatMap, shareReplay } from 'rxjs/operators';
 import { Router } from '@angular/router';
 
-const domain = '';
-const client_id = '';
+const domain = 'exia.us.auth0.com';
+const client_id = 'Rsn2JdlPXHKZ2jsdDy7gspScvlzIKhCz';
 
 @Injectable({
   providedIn: 'root'
